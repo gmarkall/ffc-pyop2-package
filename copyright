@@ -1,0 +1,98 @@
+Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=174
+Upstream-Name: FFC
+Upstream-Contact: ffc@lists.launchpad.net
+ http://www.fenicsproject.org
+Source: http://launchpad.net/ffc
+
+Files: *
+Copyright: 2004-2010, Anders Logg <logg@simula.no>
+ 2006-2010, Kristian B. Ølgaard <k.b.oelgaard@tudelft.nl>
+ 2006-2010, Marie E. Rognes <meg@simula.no>
+License: LGPL-3+
+
+Files: demo/Mini.ufl
+ demo/VectorLaplaceGradCurl.ufl
+ ffc/enrichedelement.py
+ ffc/errorcontrol/errorcontrol.py
+ ffc/errorcontrol/formmanipulations.py
+ ffc/evaluatedof.py
+ ffc/interpolatevertexvalues.py
+Copyright: 2007-2010, Marie E. Rognes
+License: LGPL-3+
+
+Files: demo/Components.ufl
+ demo/FacetRestrictionAD.ufl
+ ffc/quadrature_schemes.py
+Copyright: 2010-2011, Garth N. Wells <gnw20@cam.ac.uk>
+License: LGPL-3+
+
+Files: test/regression/test.py
+ test/regression/ufctest.py
+Copyright: 2010, Anders Logg <logg@simula.no>
+ 2010, Kristian B. Ølgaard <k.b.oelgaard@tudelft.nl>
+ 2010, Marie E. Rognes
+License: LGPL-3+
+
+Files: demo/MixedPoisson.ufl
+Copyright: 2006-2007, Anders Logg <logg@simula.no>
+ 2006-2007, Marie E. Rognes
+License: LGPL-3+
+
+Files: demo/HyperElasticity.ufl
+Copyright: 2009, Harish Narayanan <harish@simula.no>
+License: LGPL-3+
+
+Files: demo/Elasticity.ufl
+Copyright: 2005, Johan Jansson <johanjan@math.chalmers.se>
+License: LGPL-3+
+
+Files: demo/Biharmonic.ufl
+Copyright: 2009, Kristian B. Ølgaard <k.b.oelgaard@tudelft.nl>
+ 2009, Garth N. Wells <gnw20@cam.ac.uk>
+ 2009, Anders Logg <logg@simula.no>
+License: LGPL-3+
+
+Files: demo/Normals.ufl
+Copyright: 2009, Peter Brune <brune@uchicago.edu>
+License: LGPL-3+
+
+Files: debian/*
+Copyright: 2008-2011, Johannes Ring <johannr@simula.no>
+License: GPL-2+
+
+License: LGPL-3+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this package.  If not, see
+ <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems the full text of the GNU Lesser General Public
+ License, version 3 can be found in the file
+ '/usr/share/common-licenses/LGPL-3'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at
+ your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems the full text of the GNU General Public License,
+ version 2 can be found in the file
+ '/usr/share/common-licenses/GPL-2'.

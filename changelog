@@ -1,0 +1,152 @@
+ffc (1.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control: Bump version numbers for python-ufc, python-fiat,
+    python-instant and python-ufl in Depends field.
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 07 Dec 2011 15:45:54 +0100
+
+ffc (1.0-rc1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Johannes Ring <johannr@simula.no>  Tue, 29 Nov 2011 11:38:38 +0100
+
+ffc (1.0-beta2-1) unstable; urgency=low
+
+  * New upstream release. This release includes some performance
+    improvements for evaluating basis functions. It also adds support
+    for Bessel functions and error functions.
+  * debian/control: Bump version numbers for python-ufc, python-fiat,
+    python-instant, and python-ufl.
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 26 Oct 2011 17:52:20 +0200
+
+ffc (1.0-beta-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove patch (applied upstream).
+
+ -- Johannes Ring <johannr@simula.no>  Mon, 15 Aug 2011 17:12:10 +0200
+
+ffc (0.9.10-2) unstable; urgency=low
+
+  * Add patch for removing annoying debug output (closes: #627297).
+  * debian/control: Bump minimum required version for python-ufc,
+    python-instant and python-ufl in Depends.
+
+ -- Johannes Ring <johannr@simula.no>  Thu, 19 May 2011 13:42:30 +0200
+
+ffc (0.9.10-1) unstable; urgency=low
+
+  * New upstream release. This release introduces some new features and
+    some behind-the-scenes improvements. Special quadrature schemes for
+    simplices have been added, which will lead to improved performance
+    when using the quadrature representation for low-order forms.
+  * Move from python-central to dh_python2 (closes: #616807).
+    - Remove python-central from Build-Depends.
+    - Bump minimum required python-all package version to 2.6.6-3~.
+    - Remove XB-Python-Version line.
+    - Bump minimum required cdbs version to 0.4.90~.
+    - Remove DEB_PYTHON_SYSTEM=pycentral from debian/rules.
+    - Replace XS-Python-Version with X-Python-Version.
+  * debian/rules:
+    - Avoid compressing files with .ufl extension.
+    - Use DEB_COMPRESS_EXCLUDE_ALL instead of deprecated
+      DEB_COMPRESS_EXCLUDE.
+    - Include cdbs utils.mk rule for automated copyright checks.
+  * Remove old custom cdbs rules and licensecheck script for copyright
+    check.
+  * Bump Standards-Version to 3.9.2 (no changes needed).
+  * debian/copyright:
+    - Update for upstream license change to LGPLv3.
+    - Switch to DEP-5 format.
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 18 May 2011 11:22:37 +0200
+
+ffc (0.9.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove old field Conflicts, Provides, and Replaces from
+    debian/control.
+  * Update dependencies on python-ufc, python-fiat, python-instant, and
+    python-ufl in debian/control.
+  * Remove user manual from debian/docs as this was removed in
+    upstream tarball. Also remove debian/doc-base.
+  * Update Homepage field in debian/control and Maintainer field in
+    debian/copyright.
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 23 Feb 2011 23:51:37 +0100
+
+ffc (0.9.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version (no changes needed).
+
+ -- Johannes Ring <johannr@simula.no>  Thu, 02 Sep 2010 11:50:35 +0200
+
+ffc (0.9.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control:
+    - Minor fix in Vcs fields.
+    - Bump Standards-Version to 3.9.0 (no changes needed).
+    - Update version for python-ufc, python-fiat, and python-ufl in
+      Depends field.
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Update debian/copyright and debian/copyright_hints.
+
+ -- Johannes Ring <johannr@simula.no>  Thu, 01 Jul 2010 19:54:32 +0200
+
+ffc (0.9.2-3) unstable; urgency=low
+
+  * debian/control: Add python-dolfin to Suggests (closes: #581897).
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 19 May 2010 13:06:27 +0200
+
+ffc (0.9.2-2) unstable; urgency=low
+
+  * Package moved from pkg-scicomp to Debian Science.
+  * debian/control: Update version dependencies in Depends field.
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 28 Apr 2010 10:33:56 +0200
+
+ffc (0.9.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 17 Feb 2010 18:05:07 +0100
+
+ffc (0.9.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update debian/copyright and debian/copyright_hints.
+
+ -- Johannes Ring <johannr@simula.no>  Tue, 16 Feb 2010 11:52:36 +0100
+
+ffc (0.9.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control: Bump Standards-Version (no changes needed).
+  * Update debian/copyright and debian/copyright_hints.
+
+ -- Johannes Ring <johannr@simula.no>  Wed, 03 Feb 2010 20:22:35 +0100
+
+ffc (0.7.1-1) unstable; urgency=low
+
+  * New upstream release. This version adds support for automatic
+    selection of degree and shape of coefficient elements when not
+    specified.
+  * debian/watch: Update download URL.
+  * debian/copyright: Add new files and update Maintainer and Source
+    fields.
+  * Add debian/doc-base for user manual.
+
+ -- Johannes Ring <johannr@simula.no>  Tue, 08 Dec 2009 10:28:10 +0100
+
+ffc (0.7.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #502980)
+
+ -- Johannes Ring <johannr@simula.no>  Fri, 25 Sep 2009 09:41:39 +0200
+
